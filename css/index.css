@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+.clear{
+	clear:both;
+	}
+li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	color:#FCFCFC;
+	}
+a:hover{
+	color:#FF8F8F;}
+img{
+	display:block;
+	}
+
+
+/*布局*/
+
+body{
+	font-family:Noto Sans S Chinese Regular;
+	font-size:40px;
+	line-height:1.5em;
+	color:#FFFFFF;
+	} 
+.wrap{
+	width:100%px;/*1920/1920*100%*/
+	/*height:2000px;预留*/
+	margin:0 auto;
+	}
+.header{
+	background-color:#B9B9B9;/*灰色底*/
+	/*height:839px;可删除*/
+	width:100%;/*1920/1920*100%*/
+	}
+	.header img{
+		width:100%;
+		}
+	.header .nav{
+		height:56px;
+		background-color:#FFFFFF;
+		padding-left:35.3125%;/*678/1920*100%*/
+		}
+			.header .nav li{
+				float:left;
+				height:16px;
+				line-height:16px;
+				font-size:18px;
+				margin-left:5.208333%;/*100/1920*100%*/
+				padding-top:20px;
+				}
+				.header .nav li a{
+					color:#404251;
+					 }
+				.header .nav li a:hover{
+					color:#96D4FF;
+					}
+/*问题：me的图片怎么放在正中间*/
+.i_can{
+	margin:5.208333% auto;/*100/1920*100%*/
+	width:31.510417%;/*605（图片宽度）/1920*100%*/
+	}
+.content{
+	margin-top:10px;
+	background-color:#FFFFFF;
+	width:100%;/*1920/1920*100%*/
+	}
+	/*content_1内容*/
+	.content h2{
+		color:#96D4FF;
+		font-size:36PX;
+		text-align:center;
+		font-weight:normal;
+		}
+	.content .tag1{
+		margin:0 auto;
+		width:1.666667%;/*32(图片宽度)/1920*100%*/
+		}
+	.content .phone_in{
+		margin-top:100px;
+		background-color:#FFFFFF;/*白色*/
+		height:590px;
+		}
+		.phone{
+			padding-left:19.270833%;/*370/1920*100%*/
+			float:left;
+			width:35.833333%;/*688(图片宽度)/1920*100%*/
+			}
+	.content .phone_in ul{
+		width:20.625%;/*396/1920*100%*/
+		float:right;
+		padding-right:19.791667%;/*380/1920*100%*/
+		padding-top:70px;
+		}
+			.content .phone_in ul li{
+				color:#727272;
+		}
+			.content .phone_in ul .list_1{
+				font-size:28px;
+				color:#FF7777;
+				}
+			.content .phone_in ul .list_2{
+				font-size:18px;
+				line-height:27px;
+				}
+			.content .phone_in ul .list_3{
+				font-size:18px;
+				color:#000000;
+				line-height:27px;
+				margin-top:35px;
+				}
+			.content .phone_in ul .list_4{
+				font-size:14px;
+				line-height:21px;
+				margin-top:30px;
+				}
+			.content .phone_in ul .list_5{
+				font-size:14px;
+				line-height:21px;
+				margin-top:25px;
+				}
+			.content .phone_in ul .list_6{
+				font-size:14px;
+				line-height:21px;
+				margin-top:25px;
+				}
+			.content .phone_in ul .btn{
+				font-size:18px;
+				height:48px;
+				width:140px;;
+				line-height:48px;
+				margin-top:25px;
+				background-color:#FF8F8F;
+				display:block;
+				text-align:center;
+				color:#FFFFFF;
+				}
+			.content .phone_in ul .btn:hover{
+				background-color:#FFFFFF;
+				border:#FF8F8F solid 1px;
+				color:#FF6F71;
+				}
+	.content_1 h3{
+		margin-top:110px;
+		color:#96D4FF;
+		text-align:center;
+		font-size:24px;
+		font-weight:normal;
+		}
+	.content_1 .img_list img{
+		float:left;
+		width:14.285714%;/*265/1855(ul宽度)*100%*/
+		}
+		
+		
+/*content_2内容*/
+.content_2 h2{
+	margin-top:100px;
+	}
+.content_2 .tag2{
+	margin:0 auto;
+	width:1.666667%;/*32(图片宽度)/1920*100%*/
+	}
+.content_2 .box{
+	width:42.708333%;/*820/1920*100%*/
+	margin:0 auto;
+	margin-top:25px;
+	}
+.content_2 .box div{
+	width:23.414634%;/*192/820*100%*/
+	float:left;
+	height:345px;
+	}
+	.content_2 .box img{
+		width:100%;/*div里面的图片，所以100%*/
+		}
+.content_2 h3{
+		color:#96D4FF;
+		font-size:24PX;
+		text-align:center;
+		font-weight:normal;
+		text-align:center;
+	}
+.content_2 p{
+	color:404251;
+	font-size:18px;
+	text-align:center;
+	line-height:36px;
+	}
+.content_2 .bike_box{
+	margin-left:14.634146%;/*120/820*100%*/
+	margin-right:14.634146%;/*120/820*100%*/
+	}
+.content_2 .fat_box{
+	margin-right:14.634146%;/*120/820*100%*/
+	padding-left:19.268293%;/*158/820*100%*/
+	}
+	
+/*content_3内容*/	
+.content_3 .box_3{
+	width:52.760417%;/*1013/1920*100%*/
+	margin:0 auto;
+	margin-top:25px;
+	}
+.content_3 h2{
+	margin-top:100px;
+	}
+.content_3 .tag3{
+	margin:0 auto;
+	width:1.666667%;/*32(图片宽度)/1920*100%*/
+	}
+.content_3 .box_3 img{
+	float:left;
+	width:41.263574%;/*418/1013*100%*/
+	}
+	.content_3 .box_3 .beijing{
+		margin-right:15.597236%;/*158/1013*100%*/
+		}
+	.content_3 .box_3 .gongda{
+		margin-right:15.597236%;/*158/1013*100%*/
+		margin-top:60px;
+		}
+	.content_3 .box_3 .wuhan{
+		margin-top:60px;
+		}
+		
+/*content_4内容*/
+.content_4 h2{
+	margin-top:100px;
+	}
+.content_4 .tag4{
+	margin:0 auto;
+	width:1.666667%;/*32(图片宽度)/1920*100%*/
+	}
+.content_4 .call{
+	width:615px;/*615/1920*100%*/
+	margin:0 auto;
+	margin-top:25px;
+	padding-left:120px;/*120/1920*100%*/
+	}
+	.call div{
+		float:left;
+		}
+		.call div img{
+			float:left;
+			}
+		.call div p{
+			color:#96D4FF;
+			font-size:20px;
+			float:left;
+			margin-left:30px;
+			}
+		.call .phonecall{
+			margin-right:60px;/*60/615*100%*/
+			width:220px;/*220/615*100%*/
+			}
+		.call .QQ{
+			width:220px;/*220/615*100%*/
+			margin-top:50px;
+			margin-right:60px;/*60/615*100%*/
+			}
+		.call .sina{
+			margin-top:50px;
+			}
+			
+	
+.footer p{
+	color:#96D4FF;
+	font-size:18px;
+	text-align:center;
+	margin-top:50px;
+	}
